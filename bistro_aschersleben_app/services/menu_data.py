@@ -1,0 +1,163 @@
+menu_data = [
+    {
+        "category": "Drehspießgerichte (Kalb O. Hähnchen)",
+        "products": [
+            {"id": 1, "name": "Drehspieß", "description": "mit Fleisch, Salat & Soßen im Fladenbrot", "price": 7.00, "image": "https://images.unsplash.com/photo-1519864600265-abb23847ef2c", "extras": "Extra Käse, Scharf, Zwiebeln", "allergens": ["A", "C", "F", "J", "K", "i"], "zusatzstoffe": ["4"]},
+            {"id": 2, "name": "Drehspieß nur Fleisch", "description": "mit Fleisch & Soßen im Fladenbrot", "price": 7.50, "image": "https://images.unsplash.com/photo-1502741338009-cac2772e18bc", "allergens": ["A", "C", "F", "J", "K", "i"], "zusatzstoffe": ["4"]},
+            {"id": 3, "name": "Käse Drehspieß", "description": "mit Fleisch, Käse, Salat & Soßen im Fladenbrot", "price": 7.50, "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591", "extras": "Extra Käse", "allergens": ["A", "C", "F", "J", "K", "i"], "zusatzstoffe": ["4"]},
+            {"id": 4, "name": "Halumi Drehspieß", "description": "mit Fleisch, Halumi, Salat & Soßen im Fladenbrot", "price": 8.50},
+            {"id": 5, "name": "Hawaii Drehspieß", "description": "mit Fleisch, Käse, Salat & Soßen im Fladenbrot", "price": 7.50},
+            {"id": 6, "name": "Mega Drehspieß", "description": "mit Fleisch & Käse, Salat & Soßen im Fladenbrot", "price": 7.50},
+            {"id": 7, "name": "Big Fam Drehspieß", "description": "mit Fleisch & Käse im Fladenbrot", "price": 13.00},
+            {"id": 8, "name": "Pomm Drehspieß", "description": "mit Fleisch & Pommes im Fladenbrot", "price": 8.00},
+            {"id": 9, "name": "Drehspieß Teller klein", "description": "mit Fleisch, Salat, Soßen & Pommes", "price": 9.50},
+            {"id": 10, "name": "Drehspieß Teller groß", "description": "Mit Fleisch, Salat, Soßen & Pommes", "price": 10.50},
+            {"id": 11, "name": "Box", "description": "mit Pommes, Fleisch & Soßen", "price": 8.00},
+            {"id": 12, "name": "Drehspieß Dürüm", "description": "mit Fleisch, Salat & Soßen in der Teigrolle", "price": 8.00},
+            {"id": 13, "name": "Lahmacun mit Salat", "description": "mit Salat, Käse & Soßen", "price": 7.00},
+            {"id": 14, "name": "Lahmacun Drehspieß", "description": "mit Fleisch, Salat & Soßen", "price": 8.00},
+        ]
+    },
+    {
+        "category": "Salate & Vegetarisches Gerichte",
+        "products": [
+            {"id": 15, "name": "Dürüm Vegetarisch", "description": "mit Salat, Käse & Soßen in der Teigrolle", "price": 7.00},
+            {"id": 16, "name": "Vegetarischer Döner", "description": "im Fladenbrot mit Käse, Salat & Soßen", "price": 6.50},
+            {"id": 17, "name": "Falafel Dürüm", "description": "mit Falafel, Salat & Soßen in der Teigrolle", "price": 7.50},
+            {"id": 18, "name": "Falafel Teller", "description": "mit Salat, 10 Falafel & Soßen", "price": 8.50},
+            {"id": 19, "name": "Gemischter Salat", "description": "mit Soßen", "price": 6.50},
+            {"id": 20, "name": "Käse Salat", "description": "Gemischter Salat mit Soßen & Käse", "price": 7.00},
+            {"id": 21, "name": "Hawaii Salat", "description": "gemischter Salat mit Vorderschinken, Mais, Ananas & Soßen", "price": 8.00},
+            {"id": 22, "name": "Thunfisch Salat", "description": "gemischter Salat mit Thunfisch & Soßen", "price": 8.00},
+            {"id": 23, "name": "Halumi Salat", "description": "gemischter Salat mit Soßen & Halumi", "price": 8.50},
+            {"id": 24, "name": "Mediterran Salat", "description": "gemischter Salat mit Vorderschinken, Peperoni & Oliven", "price": 8.50},
+            {"id": 25, "name": "Drehspieß Salat", "description": "gemischter Salat mit Drehspieß oder Hähnchenfleisch & Soßen", "price": 8.50},
+        ]
+    },
+    {
+        "category": "Pizza",
+        "products": [
+            {"id": 26, "name": "Margherita", "description": "mit Tomatensoßen & Käse", "price": {"24cm": 7.50, "30cm": 8.50, "40cm": 15.50}},
+            {"id": 27, "name": "Salami", "description": "mit Salami", "price": {"24cm": 8.00, "30cm": 9.50, "40cm": 17.00}},
+            {"id": 28, "name": "Schinken", "description": "mit Vorderschinken", "price": {"24cm": 8.00, "30cm": 9.50, "40cm": 17.00}},
+            {"id": 29, "name": "Funghi", "description": "mit Champignons", "price": {"24cm": 8.00, "30cm": 9.50, "40cm": 17.00}},
+            {"id": 30, "name": "Hawaii", "description": "mit Vorderschinken & Ananas", "price": {"24cm": 8.50, "30cm": 10.00, "40cm": 19.00}},
+            {"id": 31, "name": "Schinken-Salami", "description": "mit Salami & Vorderschinken", "price": {"24cm": 8.50, "30cm": 10.00, "40cm": 19.00}},
+            {"id": 32, "name": "Funghi-Salami", "description": "mit Salami & Champignons", "price": {"24cm": 8.50, "30cm": 10.00, "40cm": 19.00}},
+            {"id": 33, "name": "Funghi-Schinken", "description": "mit Vorderschinken & Champignons", "price": {"24cm": 8.50, "30cm": 10.00, "40cm": 19.00}},
+            {"id": 34, "name": "Tonno", "description": "mit Thunfisch & Zwiebeln", "price": {"24cm": 8.50, "30cm": 10.00, "40cm": 19.00}},
+            {"id": 35, "name": "Vegetarian", "description": "mit Broccoli, Zwiebeln, Oliven, Pilzen, Paprika & Mais", "price": {"24cm": 9.00, "30cm": 10.50, "40cm": 19.50}},
+            {"id": 36, "name": "Bolognese", "description": "mit Spaghetti & Hackfleisch", "price": {"24cm": 8.50, "30cm": 10.00, "40cm": 19.00}},
+            {"id": 37, "name": "Mista", "description": "mit Salami, Champignons, Peperoni & Zwiebeln", "price": {"24cm": 9.00, "30cm": 10.50, "40cm": 19.50}},
+            {"id": 38, "name": "Mafia (Scharf)", "description": "mit Vorderschinken, Knoblauch, Jalapeños & Zwiebeln", "price": {"24cm": 9.00, "30cm": 10.50, "40cm": 19.50}},
+            {"id": 39, "name": "Spinata", "description": "mit Spinat & Mozzarella", "price": {"24cm": 8.50, "30cm": 10.00, "40cm": 19.00}},
+            {"id": 40, "name": "Spinacia", "description": "mit Spinat, Vorderschinken & Salami", "price": {"24cm": 8.50, "30cm": 10.00, "40cm": 19.00}},
+            {"id": 41, "name": "Drehspieß Pizza", "description": "mit Drehspießfleisch & Zwiebeln", "price": {"24cm": 9.00, "30cm": 10.50, "40cm": 19.50}},
+            {"id": 42, "name": "Chicken Pizza", "description": "mit Hähnchenfleisch, Broccoli & Zwiebeln", "price": {"24cm": 9.00, "30cm": 10.50, "40cm": 19.50}},
+            {"id": 43, "name": "Diabolo", "description": "mit Paprika & Peperoni", "price": {"24cm": 8.50, "30cm": 10.00, "40cm": 19.00}},
+            {"id": 44, "name": "Quattro Stagioni", "description": "mit Thunfisch, Vorderschinken, Paprika & Champignons", "price": {"24cm": 9.00, "30cm": 10.50, "40cm": 19.50}},
+            {"id": 45, "name": "Palermo", "description": "mit Hähnchenfleisch, Ananas & Curry", "price": {"24cm": 9.00, "30cm": 10.50, "40cm": 19.50}},
+            {"id": 46, "name": "Calzone", "description": "gefüllte Pizza mit Vorderschinken, Pilzen & Paprika", "price": {"24cm": 9.50, "30cm": 11.00}},
+            {"id": 47, "name": "Drehspieß Calzone", "description": "gefüllte Pizza mit Drehspießfleisch & Zwiebeln", "price": {"24cm": 9.50, "30cm": 11.00}},
+            {"id": 48, "name": "Sucuk Pizza", "description": "mit Knoblauchwurst & Peperoni", "price": {"24cm": 9.00, "30cm": 10.50, "40cm": 19.50}},
+            {"id": 49, "name": "Holand", "description": "mit Vorderschinken, Broccoli, Holländische Soße", "price": {"24cm": 9.00, "30cm": 10.50, "40cm": 19.50}},
+            {"id": 50, "name": "Orient", "description": "mit Drehspießfleisch, Broccoli, Zwiebeln und Holländische Soße", "price": {"24cm": 9.50, "30cm": 11.00, "40cm": 20.00}},
+            {"id": 51, "name": "Verona", "description": "mit Schicken, Broccoli, Peperoni & Holländische Soße", "price": {"24cm": 9.00, "30cm": 10.50, "40cm": 19.50}},
+            {"id": 52, "name": "Mozzarella", "description": "mit Mozzarella, Tomaten & Basilikum", "price": {"24cm": 8.50, "30cm": 10.00, "40cm": 19.00}},
+            {"id": 53, "name": "Broccoli Pizza", "description": "mit Broccoli", "price": {"24cm": 9.00, "30cm": 10.50, "40cm": 19.50}},
+            {"id": 54, "name": "Roma", "description": "mit Schinken Salami Champignons", "price": {"24cm": 9.00, "30cm": 10.50, "40cm": 19.50}},
+            {"id": 55, "name": "Popeye", "description": "mit Spinat, Broccoli & Ei", "price": {"24cm": 9.00, "30cm": 10.50, "40cm": 19.50}},
+            {"id": 56, "name": "Popeyes", "description": "mit Spinat, Schinken & Ei", "price": {"24cm": 8.50, "30cm": 10.00, "40cm": 19.00}},
+            {"id": 57, "name": "Losangés", "description": "mit Broccoli & Mais", "price": {"24cm": 8.50, "30cm": 10.00, "40cm": 19.00}},
+        ]
+    },
+    # Nudelgerichte & Aufläufe
+    {
+        "category": "Nudelgerichte & Aufläufe",
+        "products": [
+            {"id": 58, "name": "Rigatoni Napoli", "description": "mit Tomaten- oder Sahnesoßen", "price": 8.00},
+            {"id": 59, "name": "Rigatoni Bolognese", "description": "mit Hackfleischsoßen", "price": 8.50},
+            {"id": 60, "name": "Rigatoni Broccoli", "description": "mit Sahnesoßen", "price": 9.00},
+            {"id": 61, "name": "Rigatoni Schinken", "description": "mit Vorderschinken & Pilzen in Tomaten-Sahnesoßen", "price": 9.50},
+            {"id": 62, "name": "Rigatoni Vegetariana", "description": "mit verschiedenem Gemüse in Tomatensoßen", "price": 9.50},
+            {"id": 63, "name": "Rigatoni Spinat", "description": "mit Sahnesoßen", "price": 9.00},
+            {"id": 64, "name": "Rigatoni alla Panna", "description": "mit Vorderschinken & Pilzen in Sahnesoßen", "price": 9.50},
+            {"id": 65, "name": "Rigatoni Spinato", "description": "mit Vorderschinken & Spinat in Sahnesoßen", "price": 9.50},
+            {"id": 67, "name": "Rigatoni Drehspieß", "description": "mit Broccoli & Sahnesoßen", "price": 9.50},
+            {"id": 68, "name": "Gemüse", "description": "Broccoli, Spinat, Paprika, Zwiebeln & Knoblauch in Sahnesoßen", "price": 9.50},
+            {"id": 69, "name": "Broccoli", "description": "mit Sahnesoße", "price": 8.50},
+            {"id": 70, "name": "Drehspieß", "description": "mit Weichkäse & Zwiebeln in Sahnesoßen", "price": 9.50},
+            {"id": 71, "name": "Drehspieß Broccoli", "description": "mit Drehspieß der Hähnchenfleisch, Broccoli & Sahnesoße", "price": 9.50},
+            {"id": 72, "name": "Drehspieß Peperoni", "description": "mit Drehspieß der Hähnchenfleisch, Peperoni & Sahnesoße", "price": 9.50},
+            {"id": 73, "name": "Gegrillte Peperoni", "description": "mit Knoblauch & Olivenöl", "price": 7.00},
+        ]
+    },
+    # Deutsche Küche
+    {
+        "category": "Deutsche Küche",
+        "products": [
+            {"id": 74, "name": "Schnitzel im Brot", "description": "mit Salat & Soßen", "price": 8.00},
+            {"id": 75, "name": "Rahmschnitzel", "description": "mit Rahmsoße, Pommes & Salat", "price": 10.00},
+            {"id": 78, "name": "Jägerschnitzel", "description": "mit Jägersoße, Pommes & Salat", "price": 10.00},
+            {"id": 79, "name": "Zigeunerschnitzel", "description": "mit Zigeunersoße, Pommes & Salat", "price": 10.00},
+            {"id": 80, "name": "Schnitzel Spiegelei", "description": "mit Spiegelei Pommes & Salat", "price": 10.00},
+            {"id": 81, "name": "Champignons Schnitzel", "description": "mit Champignons Soße, Pommes & Salat", "price": 10.00},
+            {"id": 82, "name": "Schnitzel", "description": "mit gebratenem Champignon & Zwiebeln dazu Pommes & Salat", "price": 10.00},
+            {"id": 83, "name": "Sahneschnitzel", "description": "überbacken mit Nudeln & Broccoli in Tomaten-Sahnesoßen dazu Salat", "price": 12.00},
+            {"id": 84, "name": "Hawaii Schnitzel", "description": "überbacken mit Ananas & Sahnesoße dazu Pommes & Salat", "price": 11.50},
+            {"id": 85, "name": "Currywurst", "description": "im Brot mit Curry Soßen", "price": 7.00},
+            {"id": 86, "name": "Currywurst", "description": "im Brot mit Salat & Soßen", "price": 8.00},
+            {"id": 87, "name": "Currywurst", "description": "mit Pommes & Salat", "price": 9.50},
+            {"id": 88, "name": "Chicken Nuggets 10 Stück", "description": "mit Pommes & Salat", "price": 10.00},
+            {"id": 89, "name": "Pommes", "description": "Pommes", "price": 6.00},
+            {"id": 90, "name": "Hamburger XXXL", "description": "mit Eisberg, Tomaten & Zwiebeln", "price": 7.50},
+            {"id": 91, "name": "Cheeseburger XXXL", "description": "mit Eisberg, Tomaten & Zwiebeln", "price": 8.00},
+            {"id": 92, "name": "Crispyburger XXXL", "description": "mit Eisberg, Tomaten & Zwiebeln", "price": 9.00},
+            {"id": 93, "name": "Hamdürüm", "description": "mit Hamburger Fleisch, Eisberg, Tomaten & Zwiebeln", "price": 7.50},
+            {"id": 94, "name": "CheeseDürüm", "description": "mit Hamburger Fleisch, Käse, Eisberg, Tomaten & Zwiebeln", "price": 8.00},
+            {"id": 95, "name": "Crispy Dürüm", "description": "mit Eisberg, Tomaten & Zwiebeln", "price": 8.50},
+            {"id": 96, "name": "Schnitzel Dürüm", "description": "mit Eisberg, Tomaten & Zwiebeln", "price": 9.50},
+        ]
+    },
+    # Für Kinder
+    {
+        "category": "Für Kinder",
+        "products": [
+            {"id": 97, "name": "KiddsMenu (Nuggets)", "description": "mit Nuggets, Pommes, Lutscher, Luftballon, Getränk & Überraschung", "price": 8.00},
+            {"id": 98, "name": "KiddsMenu (Dönerfleisch)", "description": "mit Dönerfleisch, Pommes, Lutscher, Luftballon, Getränk & Überraschung", "price": 8.00},
+        ]
+    },
+    # Spar Menüs
+    {
+        "category": "Spar Menüs",
+        "products": [
+            {"id": 99, "name": "Hamburger Menü", "description": "Hamburger XXXL mit Pommes & Getränk", "price": 8.50},
+            {"id": 100, "name": "Cheeseburger Menü", "description": "Cheeseburger XXXL mit Pommes & Getränk", "price": 9.00},
+            {"id": 101, "name": "Crispy Menü", "description": "Crispyburger mit Pommes & Getränk", "price": 10.00},
+            {"id": 102, "name": "Schnitzel Menü", "description": "Schnitzel mit Pommes & Getränk", "price": 11.00},
+            {"id": 103, "name": "Currywurst Menü", "description": "Schnitzel mit Pommes & Getränk", "price": 10.50},
+        ]
+    },
+    # Alkoholfreie Getränke
+    {
+        "category": "Alkoholfreie Getränke",
+        "products": [
+            {"id": 104, "name": "Coca-Cola 0,33l", "description": "", "price": 2.00},
+            {"id": 105, "name": "Coca-Cola 1L", "description": "", "price": 3.50},
+            {"id": 106, "name": "Fanta 0,33l", "description": "", "price": 2.00},
+            {"id": 107, "name": "Fanta 1L", "description": "", "price": 3.50},
+            {"id": 108, "name": "Sprite 0,33l", "description": "", "price": 2.00},
+            {"id": 109, "name": "Sprite 1L", "description": "", "price": 3.50},
+            {"id": 110, "name": "Mezzo Mix 0,33l", "description": "", "price": 2.00},
+            {"id": 111, "name": "Mezzo Mix 1L", "description": "", "price": 3.50},
+            {"id": 112, "name": "Ice-Tea Pfirsich/Zitrone 0,33l", "description": "", "price": 2.00},
+            {"id": 113, "name": "Ice-Tea Pfirsich/Zitrone 1L", "description": "", "price": 3.00},
+            {"id": 114, "name": "Wasser 0,33l", "description": "", "price": 1.50},
+            {"id": 115, "name": "Wasser 1L", "description": "", "price": 2.50},
+            {"id": 116, "name": "Fanta Exotic", "description": "", "price": 2.00},
+            {"id": 117, "name": "Uludag", "description": "", "price": 2.00},
+            {"id": 118, "name": "Red Bull 0,25l", "description": "", "price": 2.50},
+            {"id": 119, "name": "Ayran", "description": "", "price": 1.50},
+        ]
+    },
+]
